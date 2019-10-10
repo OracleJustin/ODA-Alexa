@@ -1,12 +1,14 @@
-# Sample Alexa Skill
+# Node Server
 
-Creating an Alexa skill called *acme insurance* along with a Webhook channel lets you chat with a specific bot.
+This file creates a node server that will serve as an endpoint for both Amazon Alexa as well as Oracle Digital Assistant
 
-## Requirements
+# Requirements
+
+## Amazon
 
 Set up a developer account in the Amazon Developer Portal. Choose **Alexa Skills Kit**.
 
-## Configuring the singleBot Skill
+### Configuring the singleBot Skill
 
 ### Create a Webhook Channel
 
