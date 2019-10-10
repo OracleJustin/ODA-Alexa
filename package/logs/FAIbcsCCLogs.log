@@ -1,0 +1,191 @@
+
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : getProfileValues -> Execution of getProfileValues state started
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> FARestEndPoint = undefined
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> postOptions = {"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true}
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> End of Execution of Rest util
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> error found{"name":"RequestError","message":"Error: Invalid URI \"undefined/fscmRestApi/resources/latest/expenseProfileAttributes\"","cause":{},"error":{},"options":{"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true,"simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false}}
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> error = Error: Invalid URI "undefined/fscmRestApi/resources/latest/expenseProfileAttributes"
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> 
+Execution of Rest util params = 
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag -> extractedAmountBag = null
+
+
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> Execution of createExpenseIntentMap state started.
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> imageMissing
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> Checking for Production script 
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> imageUrl = undefined
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> transition = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> transition to = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:28:39 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : createExpenseIntentMap -> End of execution of createExpenseIntentMap .
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:28:42 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : processFutureDate -> Execution of processFutureDates state started.
+Thu, 29 Nov 2018 15:28:42 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : processFutureDate -> userDate = Thu Nov 29 2018 00:00:00 GMT-0800 (PST)  currentTime  Thu Nov 29 2018 00:00:00 GMT-0800 (PST)Difference 0
+Thu, 29 Nov 2018 15:28:42 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : processFutureDate -> transition = correctDate
+ processFutureDates component execution ends 
+
+
+
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag ->  Number amount  
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag ->  old ExtractedAmount = null
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag ->  new ExtractedAmount = undefined
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : correctCurrencyFromBag -> extractedAmountBag = {"CURRENCY":{"amount":121,"entityName":"CURRENCY","currency":"dollar","totalCurrency":"121.0 dollar"},"NUMBER":{"number":121,"entityName":"NUMBER","type":"Integer"},"entityName":"AmountBag"}
+
+
+
+
+
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : processCurrency -> Execution of processCurrency state started.
+Thu, 29 Nov 2018 15:28:45 GMT	Session Id : 3917249	User Id : 3917249	>>> Component : processCurrency -> currValue = null
+
+
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : getProfileValues -> Execution of getProfileValues state started
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> 
+Execution of Rest util params = 
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> FARestEndPoint = undefined
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> postOptions = {"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true}
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> End of Execution of Rest util
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> error found{"name":"RequestError","message":"Error: Invalid URI \"undefined/fscmRestApi/resources/latest/expenseProfileAttributes\"","cause":{},"error":{},"options":{"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true,"simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false}}
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> error = Error: Invalid URI "undefined/fscmRestApi/resources/latest/expenseProfileAttributes"
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag -> extractedAmountBag = null
+
+
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> Execution of createExpenseIntentMap state started.
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> Checking for Production script 
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> imageMissing
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> imageUrl = undefined
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> transition = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> transition to = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:29:36 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : createExpenseIntentMap -> End of execution of createExpenseIntentMap .
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:40 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : processFutureDate -> Execution of processFutureDates state started.
+Thu, 29 Nov 2018 15:29:40 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : processFutureDate -> userDate = Thu Nov 29 2018 00:00:00 GMT-0800 (PST)  currentTime  Thu Nov 29 2018 00:00:00 GMT-0800 (PST)Difference 0
+Thu, 29 Nov 2018 15:29:40 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : processFutureDate -> transition = correctDate
+ processFutureDates component execution ends 
+
+
+
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag -> extractedAmountBag = {"CURRENCY":{"amount":121,"entityName":"CURRENCY","currency":"dollar","totalCurrency":"121.0 dollar"},"NUMBER":{"number":121,"entityName":"NUMBER","type":"Integer"},"entityName":"AmountBag"}
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag ->  Number amount  
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag ->  old ExtractedAmount = null
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : correctCurrencyFromBag ->  new ExtractedAmount = undefined
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : processCurrency -> Execution of processCurrency state started.
+Thu, 29 Nov 2018 15:29:42 GMT	Session Id : 5587402	User Id : 5587402	>>> Component : processCurrency -> currValue = null
+
+
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : getProfileValues -> Execution of getProfileValues state started
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> 
+Execution of Rest util params = 
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> FARestEndPoint = undefined
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> error found{"name":"RequestError","message":"Error: Invalid URI \"undefined/fscmRestApi/resources/latest/expenseProfileAttributes\"","cause":{},"error":{},"options":{"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true,"simple":true,"resolveWithFullResponse":false,"transform2xxOnly":false}}
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> postOptions = {"uri":"undefined/fscmRestApi/resources/latest/expenseProfileAttributes","method":"GET","headers":{"Content-Type":"application/vnd.oracle.adf.resourceitem+json","authorization":"Basic RklOVVNFUjE6V2VsY29tZTE="},"json":true}
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> End of Execution of Rest util
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> error = Error: Invalid URI "undefined/fscmRestApi/resources/latest/expenseProfileAttributes"
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag -> extractedAmountBag = null
+
+
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> Execution of createExpenseIntentMap state started.
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> Checking for Production script 
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> imageMissing
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> imageUrl = undefined
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> transition = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> transition to = createExpenseWithoutReceipt
+Thu, 29 Nov 2018 15:29:54 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createExpenseIntentMap -> End of execution of createExpenseIntentMap .
+
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:57 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processFutureDate -> Execution of processFutureDates state started.
+Thu, 29 Nov 2018 15:29:57 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processFutureDate -> userDate = Thu Nov 29 2018 00:00:00 GMT-0800 (PST)  currentTime  Thu Nov 29 2018 00:00:00 GMT-0800 (PST)Difference 0
+
+
+Thu, 29 Nov 2018 15:29:57 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processFutureDate -> transition = correctDate
+ processFutureDates component execution ends 
+
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag -> Execution of CorrectCurrencyFromBag state started.
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag -> extractedAmountBag = {"CURRENCY":{"amount":121,"entityName":"CURRENCY","currency":"dollar","totalCurrency":"121.0 dollar"},"NUMBER":{"number":121,"entityName":"NUMBER","type":"Integer"},"entityName":"AmountBag"}
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag ->  old ExtractedAmount = null
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag ->  Number amount  
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : correctCurrencyFromBag ->  new ExtractedAmount = {"amount":121,"currency":"dollar","totalCurrency":"121 dollar","entityName":"CURRENCY"}
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processCurrency -> Execution of processCurrency state started.
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processCurrency -> currValue = {"amount":121,"entityName":"CURRENCY","currency":"dollar","totalCurrency":"121 dollar"}
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processCurrency -> Formatted currency  = USD
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processCurrency -> Curency is : USD
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processCurrency -> processCurrency component execution ends
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> extractedCurrencyCode = extractedCurrencyCode
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> extractedAmountValue = {"amount":121,"entityName":"CURRENCY","currency":"USD","totalCurrency":"121 USD"}
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> newTempCountryValue = undefined
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> extractedLocationValue = null
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> extractedCurrencyCodeValue = USD Country value = United States
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> newCurrencyCodeValue = undefined
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> Transition = supportingCurrency
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> processCurrencyFromLocation component execution ends
+
+
+
+
+
+
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : processLocationFromCurrency -> Execution of processLocationFromCurrency state started.
+
+
+
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createRandomPIN -> Execution of CreteRandomPIN state started.
+Thu, 29 Nov 2018 15:29:58 GMT	Session Id : 7213854	User Id : 7213854	>>> Component : createRandomPIN -> is Test Mode :null Random Number 1234
+
+

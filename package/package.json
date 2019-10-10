@@ -1,0 +1,32 @@
+{
+  "name": "netInsightInteractionBotService",
+  "version": "1.0.0",
+  "description": "Voice bot custom component service",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bots-node-sdk": "bots-node-sdk",
+    "help": "npm run bots-node-sdk -- --help",
+    "prepack": "npm run bots-node-sdk -- --pack --dry-run",
+    "start": "npm run bots-node-sdk -- --service ."
+  },
+  "author": "@Idrish.Khan",
+  "license": "ISC",
+  "dependencies": {
+    "@oracle/bots-node-sdk": "^2.0.0",
+    "body-parser": "^1.15.0",
+    "dateformat": "3.0.3",
+    "deasync": "^0.1.14",
+    "express": "^4.13.4",
+    "express-fileupload": "^1.0.0",
+    "mkdirp": "0.5.1",
+    "mkdirpsync": "0.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sync-request": "^4.1.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "@oracle/bots-node-sdk": "^2.0.0"
+  }
+}

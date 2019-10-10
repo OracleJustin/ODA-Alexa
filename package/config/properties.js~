@@ -1,0 +1,16 @@
+"use strict";
+
+module.exports = {
+     
+    fAIbcsConfig : {
+      host: 'fuscdrmsmc94-fa-ext.us.oracle.com', // correct
+      port : 10663
+    },
+    debug : 1,
+    logFile: 'runtime/logs/runtimelogs.log',
+    ocrType:'expenses',
+    OcrRestEndPoint : 'http://slc04rqt.us.oracle.com:8889/api/v1/idr-prediction/executePredictionUA',//http://slc12foy.us.oracle.com:8888/api/v1/idr-prediction/executePredictionUA',
+    supportMatchExpense : 1
+
+}
+
