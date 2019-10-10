@@ -20,12 +20,6 @@ Set up a developer account in the Amazon Developer Portal. Choose **Alexa Skills
 1. Select **No** for the Audio Player option.
 #### Define the Interaction Model
 Next, add the CommandBot intent, which sends a voice text to the configured bot. Please copy paste invocation.json file in the invocation model's JSON editor
-#### Configure the Endpoint
-1. Choose **HTTPS**
-1. Choose **North America**.
-1. Choose **No** for Account Linking
-#### Select the SSL Certificate
-Choose **My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority**.
 #### Note the skill ID
 1. Record the Skill ID underneath your skill in the developer console (View Skill ID). 
 
@@ -56,5 +50,11 @@ In the Bot Builder, create a webhook channel for your bot:
 
 ## Networking & Linking
 ### Amazon
+#### Configure the Endpoint
 1. Enter the location of the node server (HTTPS URL), appended with `/alexa/app`. For example: `https://test.oracle.com/alexa/app`. 
+1. Choose **HTTPS**
+1. Choose **North America**.
+1. Choose **No** for Account Linking
+#### Select the SSL Certificate
+Choose **My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority**.
 ### Oracle
