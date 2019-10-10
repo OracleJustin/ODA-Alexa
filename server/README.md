@@ -10,7 +10,7 @@ Set up a developer account in the Amazon Developer Portal. Choose **Alexa Skills
 
 ### Configuring the Alexa Skill
 
-#### Add the Skill Information
+#### Creating a Skill
 
 1. Open the [Amazon Developer Console](https://developer.amazon.com/edw/home.html#/).
 1. Choose **Alexa Skills Kit**.
@@ -23,10 +23,11 @@ Next, add the CommandBot intent, which sends a voice text to the configured bot.
 #### Configure the Endpoint
 1. Choose **HTTPS**
 1. Choose **North America**.
-1. Enter the HTTPS ngrok URL for port 8888 that's appended with `/alexa/app`. For example: `https://<ngrok URL for port 8888>/apps/alexa-singleBot/alexa/app`
 1. Choose **No** for Account Linking
 #### Select the SSL Certificate
 Choose **My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority**.
+#### Note the skill ID
+1. Record the Skill ID underneath your skill in the developer console (View Skill ID). 
 
 ## Oracle
 
@@ -53,3 +54,7 @@ In the Bot Builder, create a webhook channel for your bot:
 4. Run the command on the folder: npm install
 5. Finally, run the server: node index.js
 
+## Networking & Linking
+### Amazon
+1. Enter the location of the node server (HTTPS URL), appended with `/alexa/app`. For example: `https://test.oracle.com/alexa/app`. 
+### Oracle
