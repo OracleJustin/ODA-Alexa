@@ -1,0 +1,8 @@
+{
+  "invocationName" : "IC_role_bot",
+  "shortDescription" : "Cloned bot for internal testing, but actually last one",
+  "fullDescription" : null,
+  "sampleInvocations" : [ "An example utterance" ],
+  "skillBotName" : "NETINSIGHTVOICEBOT",
+  "skillBotVersion" : "1.0"
+}

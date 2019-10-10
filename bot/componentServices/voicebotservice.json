@@ -1,0 +1,9 @@
+{
+  "type" : "HOSTED",
+  "name" : "voicebotservice",
+  "version" : "1.1",
+  "packageFileName" : "netInsightInteractionBotService-1.0.0.tgz",
+  "packageChecksum" : "a5c0131235d667a40afe02d8bb3fd357",
+  "runtime" : "node",
+  "enabled" : true
+}

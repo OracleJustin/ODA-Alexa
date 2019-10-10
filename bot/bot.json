@@ -1,0 +1,9 @@
+{
+  "type" : "USER",
+  "name" : "NETINSIGHTVOICEBOTPROD",
+  "displayName" : "NETINSIGHTVOICEBOT-PROD",
+  "description" : "Bot for connecting Alexa to Oracle Digital Assistant.  ",
+  "version" : "1.1",
+  "intentTrainer" : "Tamao",
+  "trainingModels" : [ ]
+}

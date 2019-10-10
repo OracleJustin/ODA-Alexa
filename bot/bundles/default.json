@@ -1,0 +1,17 @@
+{
+  "languageTag" : "default",
+  "keys" : {
+    "system.intent.EmployeeDaysOff.conversationName" : {
+      "message" : "EmployeeDaysOff"
+    },
+    "system.intent.Greeting.conversationName" : {
+      "message" : "Greeting"
+    },
+    "system.intent.EmployeeMenu.conversationName" : {
+      "message" : "EmployeeMenu"
+    },
+    "system.intent.ManagerMenu.conversationName" : {
+      "message" : "ManagerMenu"
+    }
+  }
+}

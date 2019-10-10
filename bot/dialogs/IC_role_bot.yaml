@@ -1,0 +1,126 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: "1.1"
+main: true
+name: netinsight
+#context: Define the variables which will used throughout the dialog flow here.
+context:
+  variables:
+     Name: "string"
+     CCValue: "string"
+
+states:
+  # State to route intent
+  Intent:
+    component: "System.Intent"
+    properties:
+      variable: "iresult" 
+    transitions:
+      actions:
+        EmployeeMenu: "EmployeeMenu"
+        EmployeeDaysOff: "EmployeeDaysOff"
+        ManagerMenu: "ManagerMenu"
+        unresolvedIntent: "startUnresolved"
+
+  # State to prompt user & transition correctly
+  askGreeting:
+    component: "System.List"
+    properties:
+      prompt: "Welcome to Netinsight SADIE!"
+      options:
+      - label: "Employee Monthly Schedule"
+        value: "action1"
+      - label: "Employee Monthly Days off"
+        value: "action2"
+      - label: "Employee Overtime Info for Manager"
+        value: "action3"
+    transitions:
+      actions:
+        action1: "EmployeeMenu"
+        action2: "EmployeeDaysOff"
+        action3: "ManagerMenu"
+
+  # Custom component that fetches employee's montly schedule from APEX
+  EmployeeMenu:
+    component: "employeemonthlyschedule"
+    properties:
+      CCValue: "CCValue"
+    transitions:
+      actions:
+        success: "printCustomComponent"
+        failure: "CCError"
+
+  # Custom component that fetches employee's montly days off from APEX
+  EmployeeDaysOff:
+    component: "employeemonthlydaysoff"
+    properties:
+      CCValue: "CCValue"
+    transitions:
+      actions:
+        success: "printCustomComponent"
+        failure: "CCError"
+
+  # Custom component that fetches employee's overtime hours from APEX
+  ManagerMenu:
+    component: "managerovertimeinfo"
+    properties:
+      CCValue: "CCValue"
+    transitions:
+      actions:
+        success: "printCustomComponent"
+        failure: "CCError"
+
+  # State to print contents returned from custom components
+  printCustomComponent:
+    component: "System.Output"
+    properties:
+      text: "${CCValue}"
+      keepTurn: true
+    transitions:
+      next: "askDone"
+
+  # State to handle the end of the conversation
+  askDone:
+    component: "System.List"
+    properties:
+      prompt: "Are you done?"
+      options:
+      - label: "Yes"
+        value: "action1"
+      - label: "No"
+        value: "action2"
+    transitions:
+      actions:
+        action1: "signOff"
+        action2: "askGreeting"
+
+  signOff:
+    component: "System.Output"
+    properties:
+      text: "Thank you."
+    transitions:
+      return: "done"
+
+  # State to handle errors within custom components
+  CCError:
+    component: "System.List"
+    properties:
+      prompt: "Sorry, something went wrong with your request. Would you like to make another request?"
+      options:
+      - label: "Yes"
+        value: "action1"
+      - label: "No"
+        value: "action2"
+    transitions:
+      actions:
+        action1: "askGreeting"
+        action2: "signOff"
+
+  # State to handle unresolved intents
+  startUnresolved:
+    component: "System.Output"
+    properties:
+      text: "I'm sorry, but I cannot understand your request."
+    transitions:
+      return: "done"
