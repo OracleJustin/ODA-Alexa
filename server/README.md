@@ -29,6 +29,8 @@ Set up a Oracle Digital Assistant instance and create a skill that you would lik
 
 ### Configuring the Digital Assistant Skill
 
+#### Creating a Skill
+
 #### Create a Webhook Channel
 
 In the Bot Builder, create a webhook channel for your bot:
